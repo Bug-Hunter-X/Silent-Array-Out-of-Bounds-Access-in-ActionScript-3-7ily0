@@ -1,0 +1,1 @@
+This example demonstrates a common, yet subtle, error in ActionScript 3: silently accessing array elements beyond their bounds.  Instead of throwing an exception, ActionScript returns 'undefined', making debugging challenging. This repository contains both the buggy code and a solution illustrating safe array access.
